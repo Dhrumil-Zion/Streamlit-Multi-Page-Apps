@@ -151,16 +151,6 @@ def app():
 	
 	activities = ["Eploratory Data Analysis","Graph Analytics","Machine Learning"]	
 	choice = st.sidebar.selectbox("Select Activities",activities)
-	# extra_temp = st.sidebar.selectbox("Select Activities",["Covid-19 Data Analysis","Uber Data Visualization"])
-	
-	# if choice == "None":
-	# 	if extra_temp == "None":
-	# 		st.warning("Please Select Activities form sidebar apropriatly")
-	# 	elif extra_temp == "Covid-19 Data Analytics":
-	# 		st.subheader("Coronavirus Analysis & Prediction")
-	# 	elif extra_temp == "Uber Data Analytics":
-	# 		st.subheader("Uber Analysis")		
-	# else:
 	
 	if choice == 'Eploratory Data Analysis':
 		eda()	

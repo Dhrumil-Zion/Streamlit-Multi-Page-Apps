@@ -76,3 +76,7 @@ def app():
 	fig = px.scatter(x1,x2)
 
 	st.plotly_chart(fig)
+
+
+if __name__ == '__main__':
+	app()
