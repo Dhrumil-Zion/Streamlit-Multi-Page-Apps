@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app.py && pip install spacy spacy-streamlit
+web: sh setup.sh && streamlit run app.py
