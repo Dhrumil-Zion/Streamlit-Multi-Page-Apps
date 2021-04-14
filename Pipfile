@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+
 streamlit = "*"
 pandas = "*"
 sklearn = "*"
@@ -15,4 +16,5 @@ spacy = "*"
 spacy-streamlit = "*"
 
 [requires]
+
 python_version = "3.8"

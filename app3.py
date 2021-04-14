@@ -77,6 +77,3 @@ def app():
 
 	st.plotly_chart(fig)
 
-
-if __name__ == '__main__':
-	app()

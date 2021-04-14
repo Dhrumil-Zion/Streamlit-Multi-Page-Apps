@@ -106,7 +106,7 @@ def ploting():
 
 
 def ml():
-	st.subheader("Building ML Models")
+	st.subheader("Summary of Different ML Models")
 	data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
 	if data is not None:
 		df = pd.read_csv(data)
@@ -159,6 +159,3 @@ def app():
 		
 	elif choice == 'Machine Learning':
 		ml()		
-
-if __name__ == '__main__':
-	app()
