@@ -47,7 +47,7 @@ def classifier(class_if,params):
         params["number_of_trees"],max_depth=params["depth"],random_state=1234)    
 
 def app():
-	st.title("Dashboard")
+	st.title("Different Machine Learning Algorithms")
 
 	dataset_name = st.sidebar.selectbox("Select the Dataset",("Iris","Breast Cancer","Wine Dataset"))
 	classifier_name = st.sidebar.selectbox("Select the Classifier",("KNN","SVM","Random Forest"))
