@@ -6,6 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+streamlit = "*"
+pandas = "*"
+sklearn = "*"
+seaborn = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.8"
