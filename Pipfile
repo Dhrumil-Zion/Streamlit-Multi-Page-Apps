@@ -11,6 +11,8 @@ pandas = "*"
 sklearn = "*"
 seaborn = "*"
 plotly = "*"
+spcay = "*"
+spcay-streamlit = "*"
 
 [requires]
 python_version = "3.8"
